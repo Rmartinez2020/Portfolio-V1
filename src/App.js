@@ -4,7 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import titleCard from "./components/titleCard"
+import titleCard from "./components/titleCard";
+import Projects from "./components/projects";
 import NavB from "./components/navbar";
 import About from "./components/about";
 import './App.css';
@@ -21,10 +22,11 @@ function App() {
       
 
       <Container>
-        <Row>
-        </Row>
-        <Row>
+        <Row style={{marginBottom:"150px"}}>
           <About />
+        </Row>
+        <Row style={{marginBottom:"150px"}}>
+          <Projects />
         </Row>
       </Container>
     </>

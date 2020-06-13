@@ -8,11 +8,11 @@ function Projects() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=First slide&bg=373940"
+                        src={process.env.PUBLIC_URL+ "/images/TipTopNails.png"}
                         alt="First slide"
                     />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
+                    <Carousel.Caption style={{backgroundColor:"grey", opacity:"90%"}}>
+                        <h3>Tip Top Nails</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>

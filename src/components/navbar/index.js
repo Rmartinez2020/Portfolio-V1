@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 function NavB() {
     return (
         <>
-            <Navbar style={{ backgroundColor: "black" }} variant="dark" expand="lg" sticky="top" collapseOnSelect>
+            <Navbar style={{ backgroundColor: "black"}} variant="dark" expand="lg" sticky="top" collapseOnSelect>
                 <Navbar.Brand>Rogelio Orosco Martinez</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
