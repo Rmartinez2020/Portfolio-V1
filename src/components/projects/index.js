@@ -38,21 +38,29 @@ function Projects() {
     return (
         <>
             <Carousel controls={false}>
-                {images.map(project =>{
-                    return(
-                    <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={project.original}
-                        alt={project.originalAlt}
-                    />
-                    <Carousel.Caption style={{backgroundColor:"grey", opacity:"90%"}}>
-                        <h3>{project.originalTitle}</h3>
-                        <p>{project.description}</p>
-                    </Carousel.Caption>
-                </Carousel.Item>)
+                {images.map(project => {
+                    return (
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={project.original}
+                                alt={project.originalAlt}
+                            />
+                            <Carousel.Caption style={{ backgroundColor: "grey", opacity: "90%" }}>
+                                <h3>{project.originalTitle}</h3>
+                                <p>{project.description}</p>
+                                <a href={project.repo} target="_blank" rel="noopener noreferrer">
+                                    <button className="btn">Source Code</button>
+                                </a>
+                                {project.live ? 
+                                <a href={project.live} target="_blank" rel="noopener noreferrer">
+                                    <button className="btn">Demo</button>
+                                </a> : "" }
+                                
+                            </Carousel.Caption>
+                        </Carousel.Item>)
                 })}
-                
+
             </Carousel>
         </>
     )
