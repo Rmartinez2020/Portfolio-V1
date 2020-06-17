@@ -1,9 +1,19 @@
 import React from "react";
-import Image from 'react-bootstrap/Image'
+import Card from 'react-bootstrap/Card';
 
 function titleCard () {
     return(
-    <div></div>
+    <Card>
+        <Card.Title>
+            Rogelio
+        </Card.Title>
+        <Card.Subtitle>
+        Orosco Martinez
+        </Card.Subtitle>
+        <Card.Text>
+            Junior Full Stack Developer
+        </Card.Text>
+    </Card>
     )
 }
 
