@@ -15,17 +15,16 @@ function App() {
   return (
     <>
       <NavB />
-      <Row style={{marginBottom:"150px"}}>
-      <Image src={process.env.PUBLIC_URL + "/images/cover_image.jpg"} fluid />
-      <titleCard />
+      <Row style={{marginBottom:"20%"}}>
+      <TitleCard/>
       </Row>
       
 
       <Container>
-        <Row style={{marginBottom:"150px"}}>
+        <Row style={{marginBottom:"20%"}}>
           <About />
         </Row>
-        <Row style={{marginBottom:"150px"}}>
+        <Row style={{marginBottom:"20%"}}>
           <Projects />
         </Row>
       </Container>
