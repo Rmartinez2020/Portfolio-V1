@@ -1,7 +1,7 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 
-function titleCard () {
+function TitleCard () {
     return(
     <Card>
         <Card.Title>
@@ -17,4 +17,4 @@ function titleCard () {
     )
 }
 
-export default titleCard;
+export default TitleCard;
