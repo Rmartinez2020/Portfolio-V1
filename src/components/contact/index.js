@@ -1,38 +1,25 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import CardGroup from 'react-bootstrap/CardGroup'
-
+import Col from "react-bootstrap/Col";
 function Contact() {
 
     return (
         <>
-                    <h1 className="m-auto">Contact</h1>
-                <CardGroup>
-                    <Card>
-                        <Card.Title>
-                            Email:
-                </Card.Title>
-                        <Card.Text>
-                            Rmartinez5926.rm@gmail.com
-                </Card.Text>
-                    </Card>
-                    <Card>
-                        <Card.Title>
-                            GitHub:
-                </Card.Title>
-                        <Card.Link href="https://github.com/Rmartinez2020" target="_blank">
-                            https://github.com/Rmartinez2020
-                </Card.Link>
-                    </Card>
-                    <Card>
-                        <Card.Title>
-                            Resume:
-                </Card.Title>
-                        <Card.Link>
-                            add Download Link
-                </Card.Link>
-                    </Card>
-                </CardGroup>
+        <Col lg={8}>
+        </Col>
+            <Col>
+                <div style={{backgroundColor:"lightgrey", height:"100%"}}>
+                <div>
+                    <p><span>Email: </span>rmartinez5926.rm@gmail.com</p>
+                </div>
+                <div>
+                    <p><span>Phone: </span>(321) 948-1164</p>
+                </div>
+                <div>
+                    <p><span>Resume: </span><a href="" download>Download A Copy</a></p>
+                </div>
+                </div>
+            </Col>
+
         </>
     )
 }

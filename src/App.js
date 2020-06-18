@@ -26,7 +26,10 @@ function App() {
         <Row style={{ marginBottom: "20%" }}>
           <Projects />
         </Row>
-        <Row>
+        <Row className="justify-content-md-center">
+        <h1 className="m-auto">Contact</h1>
+        </Row>
+        <Row style={{ marginBottom: "20%" }}>
           <Contact />
         </Row>
       </Container>
