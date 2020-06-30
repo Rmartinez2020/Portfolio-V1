@@ -48,7 +48,7 @@ function Projects() {
             ]
         },
         {
-            original: process.env.PUBLIC_URL + "/images/TipTopNails.png",
+            original: process.env.PUBLIC_URL + "/images/hub.png",
             originalAlt: "Project Screenshot",
             originalTitle: "The HUB",
             description: "Bussiness app used for communication between employees and managers made using MERN stack.",
