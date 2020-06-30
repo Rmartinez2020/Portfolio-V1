@@ -21,7 +21,7 @@ function Projects() {
             ]
         },
         {
-            original: process.env.PUBLIC_URL + "/images/Employee_management.png",
+            original: process.env.PUBLIC_URL + "/images/employee_management.png",
             originalAlt: "Project Screenshot",
             originalTitle: "Employee Management",
             description: "App to filter through employees made with React and use of third party API.",
