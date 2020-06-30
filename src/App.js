@@ -20,13 +20,13 @@ function App() {
 
 
       <Container>
-        <Row style={{ marginBottom: "20%" }}>
+        <Row style={{ marginBottom: "20%" }} id="about">
           <About />
         </Row>
-        <Row style={{ marginBottom: "20%" }}>
+        <Row style={{ marginBottom: "20%" }} id="mywork">
           <Projects />
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-md-center" id="contact">
         <h1 className="m-auto">Contact</h1>
         </Row>
         <Row style={{ marginBottom: "20%" }}>

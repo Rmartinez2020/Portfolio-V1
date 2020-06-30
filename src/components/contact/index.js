@@ -18,7 +18,7 @@ function Contact() {
                         <p><span>Phone: </span>(321) 948-1164</p>
                     </div>
                     <div className="m-5">
-                        <p><span>Resume: </span><a href="" download>Download A Copy</a></p>
+                        <p><span>Resume: </span><a href="/Resume.pdf" download="RogelioOroscoMartinezResume.pdf">Download A Copy</a></p>
                     </div>
                     <div className="m-5">
                         <p><span>Github: </span> <a href="https://github.com/Rmartinez2020" target="_blank" rel="noopener noreferrer">https://github.com/Rmartinez2020</a></p>
