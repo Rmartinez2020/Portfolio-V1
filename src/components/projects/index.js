@@ -34,17 +34,18 @@ function Projects() {
             ]
         },
         {
-            original: process.env.PUBLIC_URL + "/images/note_taker.png",
+            original: process.env.PUBLIC_URL + "/images/todo.png",
             originalAlt: "Project Screenshot",
-            originalTitle: "Note Taker",
-            description: "Note taker app made with express.",
-            repo: "https://github.com/Rmartinez2020/Note_Taker",
-            live: "https://fathomless-sierra-37004.herokuapp.com/",
+            originalTitle: "To-Do App",
+            description: "Simple To Do list made in React.",
+            repo: "https://github.com/Rmartinez2020/todoApp",
+            live: "https://rmartinez2020.github.io/todoApp/",
             tech:[
                 "HTML",
                 "CSS",
                 "JavaScript",
-                "Local Storage"
+                "React",
+                "Bootstrap"
             ]
         },
         {
